@@ -1,0 +1,54 @@
+/**
+* @author: shadow
+* @filename: 
+*/
+
+body {
+	background: transparent;
+
+	-webkit-app-region: drag;
+    
+	opacity: 1;
+}
+
+#head h1 {
+	text-align: center;
+
+	background: teal;
+	color: white;
+}
+
+#main {
+	text-align: center;
+
+	padding: 3px;
+}
+.text-box > div {
+    font-size: 13px;
+}
+#filename {
+    color: gray;
+    float: left
+}
+.pause #filename {
+    color: red;
+    font-style: italic;
+}
+#color-name {
+    float: right
+}
+#cooltext {
+	font-weight: bold;
+    font-size: 13px;
+    -webkit-app-region: no-drag;
+    -webkit-user-select: text;
+    width: 90%;
+    margin: 0 auto;
+}
+#footer {
+	text-align: right;
+	font-size: 14px;
+
+	font-style:italic;
+}
+
